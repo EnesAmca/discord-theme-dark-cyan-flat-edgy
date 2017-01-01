@@ -1,0 +1,1091 @@
+/*****************************************************************/
+/* Global                                                        */
+/*****************************************************************/
+
+/* callout */
+.callout-backdrop {
+    background-color: rgba(8, 62, 56, 1.0) !important;
+    opacity: 0.8 !important;
+}
+
+/* base background, affects color of semi-transparent objects */
+.app {
+    background-color: white !important;
+}
+.content {
+    background-color: rgba(20, 135, 127, 0.1) !important;
+}
+
+/* unread badges */
+.badge {
+    color: rgba(20, 135, 127, 1.0) !important;
+    background-color: #F0F0F0 !important;
+    border-radius: 50% !important;
+    border: 1px solid rgba(20, 135, 127, 1.0) !important;
+}
+
+/* tooltips */
+.tooltip {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    border: 1px solid rgba(20, 135, 127, 0.5) !important;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+}
+/* tooltip decorations (like the arrow on the guild list) */
+.tooltip-right:after,
+.tooltip-left:after {
+    display: none !important;
+}
+
+/* popout menus */
+.popout-menu {
+    background-color: rgba(15, 107, 99, 1.0) !important;
+}
+
+.popout-menu-separator {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.popout-menu-item {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+.popout-menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.helper {
+    color: white !important;
+    opacity: 0.9 !important;
+}
+
+.popout-menu-icon {
+    background-color: white !important;
+    border-radius: 20% !important;
+}
+
+/* buttons */
+.btn.btn-primary {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+.btn.btn-primary:hover {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+}
+
+.btn.btn-default {
+    color: rgba(20, 135, 127, 0.7) !important;
+    opacity: 0.9 !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.btn.btn-default:hover {
+    color: rgba(14, 97, 90, 1.0) !important;
+    transition: 0.2s !important;
+}
+
+/* slider bar */
+.slider-bar-fill {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+}
+.slider-bar {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.slider-bar.microphone .grow {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.slider-handle {
+    border-color: rgba(14, 97, 90, 1.0) !important;
+}
+
+/* radio button */
+.radio-inner {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border-color: rgba(14, 97, 90, 0.2) !important;
+}
+.radio-inner span::after {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+}
+
+/* dialogs */
+.modal,
+.modal-inner,
+.modal-inner.modal-image {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-radius: 0% !important;
+}
+
+/* context menus */
+.context-menu {
+    border-radius: 0% !important;
+    background-color: rgba(232, 243, 242, 1.0) !important;
+}
+.context-menu .item {
+    border-radius: 0% !important;
+    color: rgba(14, 97, 90, 0.95) !important;
+}
+.context-menu .item:hover {
+    background-color: rgba(20, 135, 127, 0.6) !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.context-menu .scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+.context-menu .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.context-menu .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+/* selection */
+::selection {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+
+/*****************************************************************/
+/* Scrollbars (base design)                                      */
+/*****************************************************************/
+
+::-webkit-scrollbar {
+    border: 0px solid white !important;
+    border-width: 0px !important;
+    border-radius: 0% !important;
+}
+::-webkit-scrollbar-track {
+    border: 0px solid white !important;
+    border-width: 0px !important;
+    border-radius: 0% !important;
+}
+::-webkit-scrollbar-track-piece {
+    display: none !important;
+}
+::-webkit-scrollbar-thumb {
+    border: 0px solid white !important;
+    border-width: 0px !important;
+    border-radius: 0% !important;
+}
+
+::-webkit-scrollbar-button {
+    visibility: hidden !important;
+    background-color: white !important;
+    display: none !important;
+    border: 0px solid white !important;
+    border-width: 0px !important;
+    border-radius: 0% !important;
+}
+::-webkit-scrollbar-corner {
+    visibility: hidden !important;
+    background-color: white !important;
+    display: none !important;
+    border: 0px solid white !important;
+    border-width: 0px !important;
+    border-radius: 0% !important;
+}
+
+/*****************************************************************/
+/* Guild List                                                    */
+/*****************************************************************/
+
+.scroller.guilds {
+    background-color: rgba(20, 135, 127, 0.5) !important;
+}
+.guild-separator,
+.guild-separator::before,
+.guild-separator::after {
+    background-color: rgba(100, 135, 127, 1) !important;
+}
+.friends-icon {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+}
+.friends-online {
+    color: white !important;
+}
+
+.guild.selected::before,
+.guild.unread::before {
+    background-color: rgba(100, 170, 127, 0.8) !important;
+}
+
+.guild.guilds-add {
+    color: white !important;
+    background-color: rgba(20, 135, 127, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+.btn-download-apps {
+    display: none !important;
+}
+
+.new-messages-indicator-guild {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Channel List                                                  */
+/*****************************************************************/
+
+.scroller-wrap.fade {
+}
+.guild-header,
+.guild-header header {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+    border: none !important;
+}
+.guild-header header:hover {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+.guild-channels {
+    background-color: rgba(20, 135, 127, 0.4) !important;
+}
+.channel.channel-text.selected a {
+    background-color: rgba(20, 135, 127, 0.6) !important;
+}
+.channel.channel-text.selected::before {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    border-color: #F0F0F0 !important;
+}
+.channel.channel-text a {
+    color: rgba(255, 255, 255, 1.0) !important;
+    opacity: 0.7 !important;
+}
+.channel.channel-text a:hover {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+
+.scroller-wrap .scroller.guild-channels::-webkit-scrollbar {
+    background-color: inherit !important;
+    width: 0px;
+    height: 0px;
+}
+.scroller-wrap .scroller.guild-channels::-webkit-scrollbar-track {
+    background-color: rgba(20, 135, 127, 0.1) !important;
+}
+.scroller-wrap .scroller.guild-channels::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Account Panel                                                 */
+/*****************************************************************/
+
+.account {
+    background-color: rgba(20, 135, 127, 0.3) !important;
+    border: none;
+}
+
+.discriminator {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.btn-group {
+    border-color: rgba(20, 135, 127, 1.0) !important;
+}
+.btn.btn-mute {
+    background-color: rgba(20, 135, 127, 0.4) !important;
+    border-color: rgba(20, 135, 127, 1.0) !important;
+    color: white !important;
+}
+.btn.btn-deafen {
+    background-color: rgba(20, 135, 127, 0.4) !important;
+    border-color: rgba(20, 135, 127, 1.0) !important;
+}
+.btn.btn-settings {
+    background-color: rgba(20, 135, 127, 0.3) !important;
+    border-color: rgba(20, 135, 127, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Title Wrap                                                    */
+/*****************************************************************/
+
+.title-wrap {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+}
+.channel-name {
+    color: white !important;
+}
+.channel-name::before {
+    color: #EEE !important;
+}
+.topic {
+    color: white !important;
+}
+.topic a {
+    color: white !important;
+    opacity: 0.9 !important;
+}
+
+.header-toolbar button {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 20% !important;
+}
+.header-toolbar button.active {
+    background-color: rgba(255, 255, 255, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Message Area                                                  */
+/*****************************************************************/
+
+.new-messages-bar {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+
+.messages {
+    background-color: rgba(20, 135, 127, 0.1) !important;
+}
+
+.scroller-wrap .scroller.messages::-webkit-scrollbar {
+    background-color: white !important;
+    width: 7px;
+    height: 7px;
+}
+.scroller-wrap .scroller.messages::-webkit-scrollbar-track {
+    background-color: rgba(20, 135, 127, 0.25) !important;
+}
+.scroller-wrap .scroller.messages::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.scroller-wrap .scroller.messages::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+.channel-textarea {
+    background-color: rgba(20, 135, 127, 0.05) !important;
+}
+.typing {
+    background-color: transparent !important;
+}
+
+.channel-textarea, .channel-textarea-inner {
+    background-color: rgba(20, 135, 127, 0.05) !important;
+    border: 1px solid rgba(20, 135, 127, 0.3) !important;
+    border-radius: 0% !important;
+}
+.channel-textarea-inner textarea {
+    color: #111 !important;
+    background-color: rgba(20, 135, 127, 0.0) !important;
+}
+::-webkit-input-placeholder {
+    color: black !important;
+    opacity: 0.2 !important;
+}
+.channel-textarea-upload {
+    border: none !important;
+}
+.channel-textarea-upload:hover {
+    background-color: rgba(20, 135, 127, 0.05) !important;
+    border: none !important;
+}
+
+.channel-textarea-emoji.sprite-item {
+    background-image: none !important;
+}
+
+.mention {
+    color: rgba(20, 135, 127, 1.0) !important;
+    background-color: rgba(20, 135, 127, 0.1) !important;
+}
+.mention:hover {
+    background-color: rgba(20, 135, 127, 0.3) !important;
+}
+
+.markup {
+    color: #444 !important;
+    opacity: 1 !important;
+}
+
+.timestamp {
+    color: #444 !important;
+    opacity: 0.6 !important;
+}
+
+.btn-option,
+.btn-reaction {
+    background-color: white !important;
+    border-radius: 100% !important;
+}
+
+.option-popout {
+    background-color: rgba(20, 135, 127, 0.5) !important;
+}
+.btn-item {
+    color: white !important;
+}
+
+.divider,
+.divider-red,
+.divider span {
+    border-color: rgba(20, 135, 127, 1.0) !important;
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    color: white !important;
+}
+
+/*****************************************************************/
+/* User List                                                     */
+/*****************************************************************/
+
+.channel-members {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+.channel-members h2 {
+    color: #888 !important;
+}
+
+.member:hover {
+    background: rgba(20, 135, 127, 0.25) !important;
+}
+.popout-open {
+    background: rgba(20, 135, 127, 0.25) !important;
+}
+
+.scroller-wrap .scroller.channel-members::-webkit-scrollbar {
+    background-color: white !important;
+    width: 7px;
+    height: 7px;
+}
+.scroller-wrap .scroller.channel-members::-webkit-scrollbar-track {
+    background-color: rgba(20, 135, 127, 0.25) !important;
+}
+.scroller-wrap .scroller.channel-members::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.scroller-wrap .scroller.channel-members::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+.bot-tag {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Friends Page                                                  */
+/*****************************************************************/
+
+.search-bar {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+    border: none !important;
+    border-radius: 0% !important;
+}
+.search-bar-inner {
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    border-radius: 0% !important;
+}
+.search-bar-inner input::-webkit-input-placeholder {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.private-channels .scroller::-webkit-scrollbar {
+    background-color: inherit !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+.private-channels .scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.private-channels .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.private-channels .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+
+.private-channels {
+    background-color: rgba(20, 135, 127, 0.4) !important;
+}
+.private-channels span {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.private-channels .btn-friends a:hover,
+.private-channels .channel.private a:hover {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+.private-channels .btn-friends:before,
+.private-channels .channel.private:before,
+.private-channels .channel.private.selected:before,
+.private-channels .search-result:before,
+.private-channels .search-result.selected:before {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    border-color: rgba(20, 135, 127, 1.0) !important;
+}
+.private-channels .btn-friends .channel-name,
+.private-channels .channel.private .channel-name,
+.private-channels .search-result .search-result-name {
+    color: #FFF !important;
+    opacity: 0.9 !important;
+}
+.private-channels .channel.selected.private a,
+.private-channels .search-result.selected {
+    background-color: rgba(20, 135, 127, 0.5) !important;
+}
+
+.private-channels .channel.selected.private a:hover,
+.private-channels .search-result.selected:hover {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+
+#friends {
+background-color: rgba(20, 135, 127, 0.1) !important;
+}
+.friends-header {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+}
+.friends-table {
+}
+
+#friends .tab-bar-item.tab-bar-item-primary {
+background-color: rgba(14, 97, 90, 0.8) !important;
+}
+#friends .tab-bar-item.tab-bar-item-primary:hover {
+background-color: rgba(14, 97, 90, 1.0) !important;
+}
+
+#friends .discriminator {
+color: #BBB !important;
+}
+
+#friends .friends-row:hover {
+background-color: transparent !important;
+box-shadow: none !important;
+border: none !important;
+border-radius: 0% !important;
+border-left: 2px solid rgba(14, 97, 90, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Settings                                                      */
+/*****************************************************************/
+
+.user-settings-modal,
+.settings-right,
+.settings-left,
+.settings-header,
+.settings-inner,
+.settings-actions {
+    border-radius: 0% !important;
+}
+
+.scroller-wrap .user-settings-modal-connections-list.scroller::-webkit-scrollbar,
+.scroller-wrap .settings-panel.scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 5px !important;
+    height: 5px !important;
+}
+.scroller-wrap .user-settings-modal-connections-list.scroller::-webkit-scrollbar-thumb,
+.scroller-wrap .settings-panel.scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.scroller-wrap .user-settings-modal-connections-list.scroller::-webkit-scrollbar-thumb:hover,
+.scroller-wrap .settings-panel.scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+.settings-panel {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+.settings-panel input {
+    padding: 2px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border: 1px solid rgba(20, 135, 127, 1.0) !important;
+    background-color: #FAFAFA !important;
+}
+.settings-actions {
+    background-color: rgba(208, 231, 229, 1.0) !important;
+    border-top: 1px solid rgba(20, 135, 127, 1.0) !important;
+}
+.settings-header {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+}
+.tab-bar-header {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+    margin-bottom: 10px !important;
+}
+.tab-bar.TOP {
+    background-color: rgba(14, 97, 90, 0.9) !important;
+    padding: 26px 6px 0px 20px !important;
+    margin: 0px !important;
+    border-bottom: 1px solid rgba(14, 97, 90, 0.9) !important;
+}
+.tab-bar-item {
+    color: rgba(255, 255, 255, 1.0) !important;
+}
+.tab-bar-item.selected {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 1.0) !important;
+}
+.tab-bar-item:hover {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+}
+.tab-bar-item::before {
+    border-color: rgba(14, 97, 90, 1.0) !important;
+}
+
+.change-log-button {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+.remove-button,
+.control-group label,
+.control-group span,
+.control-group a {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.remove-button:hover,
+.control-group a:hover {
+    color: rgba(14, 97, 90, 0.6) !important;
+}
+.remove-button {
+    font-size: 13px !important;
+}
+
+.help-text {
+    color: black !important;
+    opacity: 0.8 !important;
+    font-size: 12px !important;
+}
+.checkbox span {
+    color: #111 !important;
+    opacity: 1 !important;
+}
+.checkbox.disabled span {
+    color: #000 !important;
+    opacity: 0.8 !important;
+}
+input[type="checkbox"] + span {
+    border-color: rgba(14, 97, 90, 0.2) !important;
+}
+input[type="checkbox"]:checked + span {
+    background-color: rgba(14, 97, 90, 0.8) !important;
+    border-color: rgba(14, 97, 90, 0.2) !important;
+}
+
+.premium-settings {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+
+.payment-subhead {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+
+.settings-connections-wrapper {
+    background-color: rgba(20, 135, 127, 0.2) !important;
+}
+
+.authed-app {
+    background-color: rgba(14, 97, 90, 0.1) !important;
+    border: none !important;
+}
+.app-name {
+    color: #FEFEFE !important;
+}
+.header,
+.body {
+    color: white !important;
+}
+
+.permission-checkmark {
+    color: white !important;
+}
+
+.user-settings-modal-accounts-list h3 {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.user-settings-modal-accounts-list-description-inner {
+    color: black !important;
+}
+
+.connection-option .checkbox span {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+.connection-option .checkbox.disabled span {
+    color: #FEFEFE !important;
+    opacity: 0.8 !important;
+}
+.connection-option input[type="checkbox"] + span {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+.connection-option input[type="checkbox"]:checked + span {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.scroller-wrap .user-settings-modal-connections-list.scroller {
+    border-top: 1px solid rgba(14, 97, 90, 1.0) !important;
+}
+
+/*****************************************************************/
+/* User Profile Cards (modal)                                    */
+/*****************************************************************/
+
+.tab-bar-container .tab-bar {
+    background-color: transparent !important;
+    border-color: rgba(14, 97, 90, 1.0) !important;
+}
+.tab-bar-container .tab-bar-item {
+    color: black !important;
+    border-color: rgba(14, 97, 90, 1.0) !important;
+}
+.tab-bar-container .tab-bar-item:hover {
+    background-color: inherit !important;
+}
+
+.modal-inner .guild-name,
+.modal-inner .username {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.modal-inner .discriminator,
+.modal-inner .guild-nick {
+    color: rgba(14, 97, 90, 1.0) !important;
+    opacity: 0.4 !important;
+}
+
+.modal-inner .scroller.guilds {
+    background-color: rgba(208, 231, 229, 1.0) !important;
+}
+.modal-inner .scroller.guilds .section-header {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.modal-inner .scroller.guilds textarea {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.modal-inner .scroller.guilds textarea:focus {
+    background-color: inherit !important;
+}
+.modal-inner .scroller.guilds textarea::-webkit-input-placeholder {
+    color: black !important;
+    opacity: 0.4 !important;
+}
+
+.modal-inner .empty {
+    background-color: rgba(208, 231, 229, 1.0) !important;
+}
+
+.modal-inner .additional-actions-icon.popout-open {
+    background-color: transparent !important;
+}
+
+.connected-account {
+    background-color: rgba(14, 97, 90, 0.4) !important;
+    border: none !important;
+}
+.connected-account-name {
+    color: white !important;
+}
+
+.scroller-wrap .guilds.scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 5px !important;
+    height: 5px !important;
+}
+.scroller-wrap .guilds.scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.scroller-wrap .guilds.scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+/*****************************************************************/
+/* User Profile Cards (small)                                    */
+/*****************************************************************/
+
+.user-popout {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    border-radius: 0% !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+}
+
+.user-popout .header {
+    background: transparent !important;
+}
+.user-popout .header *::selection {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.user-popout .avatar-popout {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.user-popout .discriminator {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.user-popout .discriminator::selection {
+    background-color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.user-popout .bot-tag {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: white !important;
+}
+
+.user-popout .body {
+    background-color: rgba(219, 229, 228, 1.0) !important;
+}
+.user-popout .body .section.roles {
+    background-color: transparent !important;
+}
+
+.user-popout .footer {
+    display: none !important;
+}
+
+#autocomplete-popout {
+border: 1px solid white !important;
+}
+#autocomplete-popout header,
+#autocomplete-popout section {
+border-radius: 0% !important;
+}
+
+#autocomplete-popout header {
+background-color: rgba(20, 135, 127, 1.0) !important;
+}
+#autocomplete-popout header:before,
+#autocomplete-popout section:before {
+display: none !important;
+}
+#autocomplete-popout header h3 {
+color: rgba(219, 229, 228, 1.0) !important;
+}
+#autocomplete-popout section h4 {
+color: rgba(20, 135, 127, 1.0) !important;
+}
+#autocomplete-popout section {
+background-color: rgba(219, 229, 228, 1.0) !important;
+}
+#autocomplete-popout section .row:hover,
+#autocomplete-popout section .row:focus,
+#autocomplete-popout section .row.selected {
+background: rgba(20, 135, 127, 0.2) !important;
+}
+#autocomplete-popout section .empty:hover {
+background-color: transparent !important;
+}
+
+#autocomplete-popout .scroller::-webkit-scrollbar {
+background-color: transparent !important;
+width: 8px !important;
+height: 8px !important;
+}
+#autocomplete-popout .scroller::-webkit-scrollbar-thumb {
+background-color: rgba(20, 135, 127, 0.8) !important;
+}
+#autocomplete-popout .scroller::-webkit-scrollbar-thumb:hover {
+background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+/*****************************************************************/
+/* Emoji Picker                                                  */
+/*****************************************************************/
+
+.emoji-picker {
+    border-radius: 0% !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    background-color: rgba(232, 243, 242, 1.0) !important;
+}
+
+.emoji-picker .scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+.emoji-picker .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.emoji-picker .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+.emoji-picker .header {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+}
+
+.emoji-picker .search-bar,
+.emoji-picker .search-bar-light {
+    background-color: transparent !important;
+    border-radius: 0% !important;
+}
+.emoji-picker .search-bar.search-bar-inner {
+    border-radius: 0% !important;
+}
+.emoji-picker input {
+    color: white !important;
+}
+
+.emoji-picker .scroller {
+    background-color: rgba(20, 135, 127, 0.1) !important;
+}
+
+.emoji-picker .popout {
+    background-color: rgba(20, 135, 127, 1.0) !important;
+    border-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.emoji-picker .category,
+.emoji-picker .sticky-header {
+    background-color: transparent !important;
+}
+
+.emoji-picker .emoji-item.selected {
+    background-color: rgba(20, 135, 127, 0.4) !important;
+}
+
+.emoji-picker .categories .item.selected {
+    border-color: rgba(20, 135, 127, 0.9) !important;
+}
+
+/*****************************************************************/
+/* Pinned Messages / Recent Mentions (Dialog)                    */
+/*****************************************************************/
+
+.messages-popout-wrap {
+    border-radius: 0% !important;
+    background-color: rgba(232, 243, 242, 1.0) !important;
+}
+
+.messages-popout-wrap .header {
+    border-radius: 0% !important;
+    background-color: rgba(20, 135, 127, 0.9) !important;
+}
+.messages-popout-wrap .header .title {
+    color: white !important;
+}
+
+.messages-popout-wrap .message-group {
+    border-radius: 0% !important;
+    border-color: rgba(20, 135, 127, 0.1) !important;
+}
+
+.messages-popout-wrap .action-buttons {
+    display: none !important;
+}
+
+.messages-popout-wrap .tab-bar {
+    background-color: transparent !important;
+}
+.messages-popout-wrap .mention-filter {
+    background-color: transparent !important;
+}
+.messages-popout-wrap .header .label,
+.messages-popout-wrap .header .value {
+    color: white !important;
+}
+
+.messages-popout-wrap .channel-name {
+    color: rgba(20, 135, 127, 0.9) !important;
+}
+.messages-popout-wrap .guild-name {
+    color: rgba(20, 135, 127, 0.7) !important;
+}
+
+.messages-popout-wrap .empty-placeholder .body {
+    color: rgba(20, 135, 127, 0.9) !important;
+}
+.messages-popout-wrap .footer .protip .tip {
+    color: #555 !important;
+}
+
+.messages-popout-wrap .scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+.messages-popout-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.messages-popout-wrap .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+/*****************************************************************/
+/* File Upload                                                   */
+/*****************************************************************/
+
+.upload-modal {
+    background-color: rgba(20, 135, 127, 0.9) !important;
+    border-radius: 0% !important;
+    border: 1px solid white !important;
+}
+.upload-modal .inner {
+    border: none !important;
+}
+.upload-modal .footer {
+    background-color: rgba(14, 97, 90, 0.9) !important;
+}
+
+.upload-modal .icon {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.upload-modal .channel-textarea-inner {
+    background-color: rgba(14, 97, 90, 0.4) !important;
+    border-color: rgba(255, 255, 255, 0.8) !important;
+}
+.upload-modal textarea {
+    color: white !important;
+}
+.upload-modal textarea::selection {
+    background-color: white !important;
+}
+
+.upload-modal .button {
+    background-color: transparent !important;
+    border-radius: 0% !important;
+}
+.upload-modal .button.button-primary {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+
+/*****************************************************************/
+/* Server Settings                                               */
+/*****************************************************************/
+
+.region-select:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.region-select-inner,
+.region-select button {
+    border-color: rgba(14, 97, 90, 0.4) !important;
+    color: rgba(14, 97, 90, 0.9) !important;
+}
+.region-select-inner:hover,
+.region-select button:hover {
+    border-color: rgba(14, 97, 90, 1.0) !important;
+}
+.region-select button:hover {
+    background-color: rgba(14, 97, 90, 0.8) !important;
+    color: white !important;
+}
+
+.instant-invites,
+.guild-settings-modal-integrations,
+.guild-settings-modal-members,
+.guild-settings-modal-emoji,
+.roles, .selected-role,
+.webhooks {
+    background-color: rgba(14, 97, 90, 0.1) !important;
+}
+.instant-invite {
+    color: #555 !important;
+}
+.roles {
+    background-color: rgba(14, 97, 90, 0.12) !important;
+}
+
+.settings-inner .scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 8px !important;
+    height: 8px !important;
+}
+.settings-inner .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.settings-inner .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
+}
