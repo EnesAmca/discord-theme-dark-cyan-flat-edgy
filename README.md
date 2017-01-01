@@ -18,6 +18,16 @@
 Intentionally only written for the Discord app and **not** for web browsers! Don't ask for help or report bugs if you are not using the official client. Thanks for understanding.
 
 
+### Screenshots
+
+![](./screenshots/main-ui.png)
+![](./screenshots/user-settings.png)
+![](./screenshots/user-popout.png)
+![](./screenshots/msg-options.png)
+![](./screenshots/context-menu-user.png)
+![](./screenshots/context-menu-channel.png)
+
+
 ### Changelog
 
 #### v0.7 - `Incomplete`
