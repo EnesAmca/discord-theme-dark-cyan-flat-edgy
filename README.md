@@ -21,6 +21,7 @@ Intentionally only written for the Discord app and **not** for web browsers! Don
 ### Usage
 
 This theme was built on top of the **light theme** of Discord. To make it work as intended switch to the light theme first.
+If you are not using BetterDiscord remove the first line which says `META` from the CSS.
 
 
 ### Screenshots
