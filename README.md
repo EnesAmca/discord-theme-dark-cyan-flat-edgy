@@ -18,6 +18,11 @@
 Intentionally only written for the Discord app and **not** for web browsers! Don't ask for help or report bugs if you are not using the official client. Thanks for understanding.
 
 
+### Usage
+
+This theme was built on top of the **light theme** of Discord. To make it work as intended switch to the light theme first.
+
+
 ### Screenshots
 
 ![](./screenshots/main-ui.png)
