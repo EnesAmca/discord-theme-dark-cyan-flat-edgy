@@ -36,6 +36,12 @@ If you are not using BetterDiscord remove the first line which says `META` from 
 
 ### Changelog
 
+#### v0.7.1 - `Incomplete`
+
+ - User Profile Modal Dialog Header skinned
+ - User Profile Pop-outs: Skinned `username` and `activity` (no longer blue)
+ - Notification Settings skinned
+
 #### v0.7 - `Incomplete`
 
  - Initial public release

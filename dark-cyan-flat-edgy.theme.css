@@ -1,4 +1,4 @@
-//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7"}*//{}
+//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7"}*//
 
 /*****************************************************************/
 /* Global                                                        */
@@ -782,6 +782,46 @@ input[type="checkbox"]:checked + span {
     color: white !important;
 }
 
+#user-profile-modal {
+background-color: rgba(17, 124, 113, 1.0) !important;
+border-radius: 0% !important;
+border: 1px solid white !important;
+background-image: none !important;
+}
+#user-profile-modal .header {
+background-color: transparent !important;
+background-image: none !important;
+background: transparent !important;
+}
+#user-profile-modal .header::after {
+content: none !important;
+}
+#user-profile-modal .tab-bar-container {
+background-color: rgba(17, 124, 113, 1.0) !important;
+}
+#user-profile-modal .tab-bar-container .tab-bar-item {
+color: white !important;
+}
+#user-profile-modal .header-info-inner *::selection {
+background-color: rgba(255, 255, 255, 0.5) !important;
+}
+#user-profile-modal .header-info-inner .username {
+color: white !important;
+}
+#user-profile-modal .header-info-inner .discriminator {
+color: rgba(255, 255, 255, 0.8) !important;
+opacity: 0.8 !important;
+font-size: 12px !important;
+}
+#user-profile-modal .header-info-inner .activity {
+color: rgba(255, 255, 255, 0.9) !important;
+}
+#user-profile-modal .avatar-wrapper {
+background-color: transparent !important;
+border: 3px solid rgba(255, 255, 255, 0.8) !important;
+border-radius: 100% !important;
+}
+
 .scroller-wrap .guilds.scroller::-webkit-scrollbar {
     background-color: transparent !important;
     width: 5px !important;
@@ -813,11 +853,17 @@ input[type="checkbox"]:checked + span {
 .user-popout .avatar-popout {
     border-color: rgba(255, 255, 255, 0.5) !important;
 }
+.user-popout .username {
+    color: white !important;
+}
 .user-popout .discriminator {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 .user-popout .discriminator::selection {
     background-color: rgba(255, 255, 255, 1.0) !important;
+}
+.user-popout .activity {
+    color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .user-popout .bot-tag {
@@ -1090,4 +1136,31 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 }
 .settings-inner .scroller::-webkit-scrollbar-thumb:hover {
     background-color: rgba(20, 135, 127, 0.95) !important;
+}
+
+/*****************************************************************/
+/* Notification Settings                                         */
+/*****************************************************************/
+
+.notification-settings-modal {
+    background-color: white !important;
+    border: 1px solid rgba(14, 97, 90, 1.0) !important;
+}
+.notification-settings-modal .settings-inner {
+    background-color: rgba(14, 97, 90, 0.12) !important;
+}
+.notification-settings-modal-channel-settings-header {
+}
+.notification-settings-modal .scroller {
+    background-color: #CEE2E0 !important;
+}
+.notification-settings-modal .channel-notification-settings * {
+    background-color: transparent !important;
+}
+
+/*****************************************************************/
+/* Search Bar                                                    */
+/*****************************************************************/
+
+.search-bar {
 }
