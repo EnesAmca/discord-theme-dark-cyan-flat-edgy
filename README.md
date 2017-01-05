@@ -36,6 +36,12 @@ If you are not using BetterDiscord remove the first line which says `META` from 
 
 ### Changelog
 
+#### v0.7.3  - `Incomplete`
+
+ - Removed more rounded borders for even more edginess :D
+ - Some fixes in the User Settings Dialog
+ - Discord Changelog Dialog skinned
+
 #### v0.7.2 - `Incomplete`
 
  - Emoji Picker transparency fixes

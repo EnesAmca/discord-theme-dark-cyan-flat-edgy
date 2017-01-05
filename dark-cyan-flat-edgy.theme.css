@@ -288,6 +288,7 @@
 
 .btn-group {
     border-color: rgba(20, 135, 127, 1.0) !important;
+    border-radius: 0% !important;
 }
 .btn.btn-mute {
     background-color: rgba(20, 135, 127, 0.4) !important;
@@ -417,6 +418,7 @@
 
 .option-popout {
     background-color: rgba(20, 135, 127, 0.5) !important;
+    border-radius: 0% !important;
 }
 .btn-item {
     color: white !important;
@@ -676,8 +678,13 @@ input[type="checkbox"]:checked + span {
 .premium-settings {
     background-color: rgba(20, 135, 127, 0.2) !important;
 }
-
 .payment-subhead {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+.premium-settings .subscription {
+    background: rgba(14, 97, 90, 1.0) !important;
+}
+.premium-settings .premium-tools button {
     color: rgba(14, 97, 90, 1.0) !important;
 }
 
@@ -724,8 +731,59 @@ input[type="checkbox"]:checked + span {
     border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
+.connection-integrations .integration .guild-name {
+    color: white !important;
+}
+
 .scroller-wrap .user-settings-modal-connections-list.scroller {
     border-top: 1px solid rgba(14, 97, 90, 1.0) !important;
+}
+
+/* changelog */
+.markdown-modal.change-log {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+    border-radius: 0% !important;
+}
+.markdown-modal.change-log .markdown-modal-header {
+    color: white !important;
+    padding-top: 0px !important;
+    padding-bottom: 15px !important;
+    margin-top: 15px !important;
+    margin-bottom: 0px !important;
+}
+.markdown-modal.change-log .scroller {
+    padding-top: 10px !important;
+}
+.markdown-modal.change-log .scroller,
+.markdown-modal.change-log .markdown-modal-footer {
+    background-color: rgba(208, 231, 229, 1.0) !important;
+}
+.markdown-modal.change-log p {
+    color: #222 !important;
+}
+.markdown-modal.change-log li {
+    color: #444 !important;
+}
+.markdown-modal.change-log .changelog-fixed {
+    background-color: rgba(14, 97, 90, 1.0) !important;
+}
+.markdown-modal.change-log .markdown-modal-footer {
+    color: #222 !important;
+}
+.markdown-modal.change-log .markdown-modal-footer a {
+    color: rgba(14, 97, 90, 1.0) !important;
+}
+
+.markdown-modal.change-log .scroller::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+.markdown-modal.change-log .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 135, 127, 0.8) !important;
+}
+.markdown-modal.change-log .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 135, 127, 0.95) !important;
 }
 
 /*****************************************************************/
