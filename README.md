@@ -36,6 +36,13 @@ If you are not using BetterDiscord remove the first line which says `META` from 
 
 ### Changelog
 
+#### v0.7.2 - `Incomplete`
+
+ - Emoji Picker transparency fixes
+ - Emoji auto-completer skinned
+ - Hide "Welcome Message" (oversized and huge af heading in the primary text channel of each server) <br>
+   Doesn't hide "beginning of" headings!
+
 #### v0.7.1 - `Incomplete`
 
  - User Profile Modal Dialog Header skinned

@@ -10,6 +10,11 @@
     opacity: 0.8 !important;
 }
 
+/* welcome message */
+.welcome-message {
+    display: none !important;
+}
+
 /* base background, affects color of semi-transparent objects */
 .app {
     background-color: white !important;
@@ -958,7 +963,7 @@ background-color: rgba(20, 135, 127, 0.95) !important;
     background-color: transparent !important;
     border-radius: 0% !important;
 }
-.emoji-picker .search-bar.search-bar-inner {
+.emoji-picker .search-bar .search-bar-inner {
     border-radius: 0% !important;
 }
 .emoji-picker input {
@@ -972,6 +977,7 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 .emoji-picker .popout {
     background-color: rgba(20, 135, 127, 1.0) !important;
     border-color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 0% !important;
 }
 
 .emoji-picker .category,
@@ -985,6 +991,28 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 
 .emoji-picker .categories .item.selected {
     border-color: rgba(20, 135, 127, 0.9) !important;
+}
+
+.emoji-picker .sticky-header {
+    background-color: #d3e8e6 !important;
+    opacity: 0.9 !important;
+}
+.emoji-picker .sticky-header .category {
+    color: #333 !important;
+}
+
+/* emoji autocomplete pop-out */
+.channel-textarea-autocomplete-inner {
+    border: 2px solid rgba(14, 97, 90, 0.8) !important;
+}
+.channel-textarea-autocomplete-inner header {
+    background-color: rgba(14, 97, 90, 0.8) !important;
+}
+.channel-textarea-autocomplete-inner header div {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+.channel-textarea-autocomplete-inner ul {
+    background-color: rgba(14, 97, 90, 0.1) !important;
 }
 
 /*****************************************************************/
