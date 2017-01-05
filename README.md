@@ -36,6 +36,12 @@ If you are not using BetterDiscord remove the first line which says `META` from 
 
 ### Changelog
 
+This theme is not yet finished and there are still some bugs due to bad CSS selections.
+I'm still trying to understand the layout of Discord and how it works. Some things are
+not yet themed and may look not very nice.
+
+All the primary and most used UI elements are done though :smile:
+
 #### v0.7.3  - `Incomplete`
 
  - Removed more rounded borders for even more edginess :D
@@ -59,10 +65,3 @@ If you are not using BetterDiscord remove the first line which says `META` from 
 
  - Initial public release
 
-
-
-This theme is not yet finished and there are still some bugs due to bad CSS selections.
-I'm still trying to understand the layout of Discord and how it works. Some things are
-not yet themed and may look not very nice.
-
-All the primary and most used UI elements are done though :smile:
