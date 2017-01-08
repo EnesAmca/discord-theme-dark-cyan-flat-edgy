@@ -1,8 +1,14 @@
-//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7.5"}*//
+//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7.5.1"}*//{}
 
 /*****************************************************************/
 /* Global                                                        */
 /*****************************************************************/
+
+/* callout */
+.callout-backdrop {
+    background-color: rgba(8, 62, 56, 1.0) !important;
+    opacity: 0.8 !important;
+}
 
 /* welcome message */
 .welcome-message {
@@ -1238,14 +1244,4 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 }
 .notification-settings-modal .channel-notification-settings * {
     background-color: transparent !important;
-}
-
-/*****************************************************************/
-/* Other                                                         */
-/*****************************************************************/
-
-/* callout */
-.callout-backdrop {
-    background-color: rgba(8, 62, 56, 1.0) !important;
-    opacity: 0.8 !important;
 }
