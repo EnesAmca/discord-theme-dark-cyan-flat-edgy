@@ -42,6 +42,11 @@ not yet themed and may look not very nice.
 
 All the primary and most used UI elements are done though :smile:
 
+#### v0.7.5 - `Incomplete`
+
+ - Increase emoji picker size <br>
+   See `.emoji-picker .scroller` to set a custom size
+
 #### v0.7.4 - `Incomplete`
 
  - Clean up
