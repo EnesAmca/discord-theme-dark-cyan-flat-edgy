@@ -1,14 +1,8 @@
-//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7"}*//
+//META{"name":"Dark Cyan (Flat & Edgy)","description":"A dark cyan and flat & edgy theme for Discord","author":"マギルゥーベルベット","version":"0.7.4"}*//
 
 /*****************************************************************/
 /* Global                                                        */
 /*****************************************************************/
-
-/* callout */
-.callout-backdrop {
-    background-color: rgba(8, 62, 56, 1.0) !important;
-    opacity: 0.8 !important;
-}
 
 /* welcome message */
 .welcome-message {
@@ -232,8 +226,6 @@
 /* Channel List                                                  */
 /*****************************************************************/
 
-.scroller-wrap.fade {
-}
 .guild-header,
 .guild-header header {
     background-color: rgba(20, 135, 127, 0.9) !important;
@@ -528,6 +520,9 @@
     color: #FFF !important;
     opacity: 0.9 !important;
 }
+.private-channels .channel.btn-friends.selected {
+    background: rgba(20, 135, 127, 0.3) !important;
+}
 .private-channels .channel.selected.private a,
 .private-channels .search-result.selected {
     background-color: rgba(20, 135, 127, 0.5) !important;
@@ -543,8 +538,6 @@ background-color: rgba(20, 135, 127, 0.1) !important;
 }
 .friends-header {
     background-color: rgba(20, 135, 127, 0.9) !important;
-}
-.friends-table {
 }
 
 #friends .tab-bar-item.tab-bar-item-primary {
@@ -1235,8 +1228,6 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 .notification-settings-modal .settings-inner {
     background-color: rgba(14, 97, 90, 0.12) !important;
 }
-.notification-settings-modal-channel-settings-header {
-}
 .notification-settings-modal .scroller {
     background-color: #CEE2E0 !important;
 }
@@ -1245,8 +1236,11 @@ background-color: rgba(20, 135, 127, 0.95) !important;
 }
 
 /*****************************************************************/
-/* Search Bar                                                    */
+/* Other                                                         */
 /*****************************************************************/
 
-.search-bar {
+/* callout */
+.callout-backdrop {
+    background-color: rgba(8, 62, 56, 1.0) !important;
+    opacity: 0.8 !important;
 }

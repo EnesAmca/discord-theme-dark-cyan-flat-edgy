@@ -42,6 +42,12 @@ not yet themed and may look not very nice.
 
 All the primary and most used UI elements are done though :smile:
 
+#### v0.7.4 - `Incomplete`
+
+ - Clean up
+ - BeautifulDiscord fixes
+ - Fixed "Friends" button selected state background color
+
 #### v0.7.3  - `Incomplete`
 
  - Removed more rounded borders for even more edginess :D
