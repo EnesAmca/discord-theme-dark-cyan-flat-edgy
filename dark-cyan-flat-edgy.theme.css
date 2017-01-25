@@ -402,6 +402,9 @@
     color: #444 !important;
     opacity: 1 !important;
 }
+.markup .edited {
+    -webkit-user-select: none !important;
+}
 
 .timestamp {
     color: #444 !important;
